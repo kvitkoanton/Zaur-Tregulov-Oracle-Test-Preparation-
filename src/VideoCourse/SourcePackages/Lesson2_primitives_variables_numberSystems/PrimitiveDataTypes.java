@@ -4,7 +4,7 @@ public class PrimitiveDataTypes {
 
     public static void main(String[] args) {
 
-        byte b1 = 10; //тип переменной / название переменной / = / значение  (-128 - +127)
+        byte b1 = 10; //тип переменной / название переменной / = / значение -128 - +127)
         byte b2 = 20;
         byte b3 = 100;
 
@@ -48,10 +48,10 @@ public class PrimitiveDataTypes {
         int a5 = 0x3C; // 0x означает, что число в шестнадцатиричной системе исчисления
         int a6 = 0X3c;
 
-        // Decimal
-        // Binary
-        // Octal
-        // Hexadecimal
+        // Decimal - десятичный
+        // Binary - двоичный
+        // Octal - восьмеричный
+        // Hexadecimal - шестнадцатеричный
 
         System.out.println(a2);
         System.out.println(a3);
