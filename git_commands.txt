@@ -111,4 +111,3 @@ cd <name_directory> - переход в директорию с именем <na
 touch <name.html> - создание файла с именем <name.html>
 code . - открытие файла
 
-
