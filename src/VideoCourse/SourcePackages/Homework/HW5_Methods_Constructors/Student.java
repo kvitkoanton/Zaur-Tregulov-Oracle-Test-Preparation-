@@ -9,9 +9,10 @@ public class Student {
     double averageGradeInForeignLanguage;
 }
 class StudentTest {
-    static void studentInfoWithAverageGrade(Student student) {
+    double studentInfoWithAverageGrade(Student student) {
         double averageGrade = (student.averageGradeInEconomics + student.averageGradeInMathematics + student.averageGradeInForeignLanguage) / 3;
         System.out.println("Average grade Student " + student.firstName + " " + student.lastName + " is " + averageGrade);
+        return averageGrade;
     }
     public static void main(String[] args) {
         Student student1 = new Student();
@@ -39,9 +40,11 @@ class StudentTest {
         student3.averageGradeInEconomics = 2.1;
         student3.averageGradeInForeignLanguage = 3.5;
 
-        studentInfoWithAverageGrade(student1);
-        studentInfoWithAverageGrade(student2);
-        studentInfoWithAverageGrade(student3);
+        StudentTest studentTest = new StudentTest();
+        studentTest.studentInfoWithAverageGrade(student1);
+        studentTest.studentInfoWithAverageGrade(student2);
+        studentTest.studentInfoWithAverageGrade(student3);
+
 
 
     }
