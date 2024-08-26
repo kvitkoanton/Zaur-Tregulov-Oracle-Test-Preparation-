@@ -1,6 +1,7 @@
 package VideoCourse.SourcePackages.Lesson_4_Class_Object;
 
 public class Car {
+    Car(){ } // default constuctor
     String color = "red";
     String egine = "V6";
 }
