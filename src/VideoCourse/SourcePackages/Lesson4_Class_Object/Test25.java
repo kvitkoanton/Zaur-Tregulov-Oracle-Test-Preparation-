@@ -1,4 +1,4 @@
-package VideoCourse.SourcePackages.Lesson_4_Class_Object;
+package VideoCourse.SourcePackages.Lesson4_Class_Object;
 
 public class Test25 {
     int b = 20; // переменніе можно создавать вне метода main
