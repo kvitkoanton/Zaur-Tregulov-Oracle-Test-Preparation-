@@ -1,0 +1,13 @@
+Comments
+end-of-line (Ctrl + /)
+// you can write comments here
+
+multiline (Ctrl + Shift + /)
+/* // you can write comments here
+* and here
+* and here */
+
+JavaDoc
+/** you can write comments here
+* and here
+* and here */

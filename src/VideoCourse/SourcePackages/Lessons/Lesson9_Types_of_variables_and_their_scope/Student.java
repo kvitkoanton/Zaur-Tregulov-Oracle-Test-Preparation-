@@ -1,6 +1,10 @@
-package VideoCourse.SourcePackages.Lessons.Lesson_9_Types_of_variables_and_their_scope;
+package VideoCourse.SourcePackages.Lessons.Lesson9_Types_of_variables_and_their_scope;
 
 public class Student {
+    int a = 10;
+    public static int c = 5;
+    public int z = this.c;
+    static int f = c;
 
 }
 

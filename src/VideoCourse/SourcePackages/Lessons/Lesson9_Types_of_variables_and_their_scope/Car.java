@@ -1,8 +1,8 @@
-package VideoCourse.SourcePackages.Lessons.Lesson_9_Types_of_variables_and_their_scope;
+package VideoCourse.SourcePackages.Lessons.Lesson9_Types_of_variables_and_their_scope;
 
 public class Car {
     String color; //Instance variable (Object variable)
-    int a = 10;
+    public static int a = 10;
     String engine; //Instance variable (Object variable)
     static int count; //static variable - принадлежит классу, общая для всех объектов
 
@@ -11,7 +11,7 @@ public class Car {
     //this.a = b;
     }
 
-    Car (String color, String engine) {
+    public Car (String color, String engine) {
 
       //  int x = 5; //видны только в конструкторе. // локальная переменная нет default значения
       //  int y = x +10;
