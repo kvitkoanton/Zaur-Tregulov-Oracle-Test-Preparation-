@@ -1,4 +1,4 @@
-package VideoCourse.SourcePackages.Lesson7_package_accessModifier;
+package VideoCourse.SourcePackages.Lessons.Lesson7_package_accessModifier;
 
 public class AnotherClass {
     public static void main(String[] args) {
