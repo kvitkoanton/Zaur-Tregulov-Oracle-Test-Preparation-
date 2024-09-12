@@ -28,5 +28,4 @@ public class Employee {
                 System.out.println("There is a mistake in day name");
         }
     }
-
 }
