@@ -8,7 +8,7 @@ public class Time {
     static void time() {
         OUTER:
         for (hour = 0; hour <= 6; hour++) {
-            INNER1:
+            MIDDLE:
             for (minute = 0; minute <= 59; minute++) {
                 if((hour > 1) && (minute % 10 == 0)) {
                     break OUTER;
@@ -16,7 +16,7 @@ public class Time {
                 INNER2:
                 for (second = 0; second <= 59; second++) {
                     if((second * hour) > minute) {
-                        continue INNER1;
+                        continue MIDDLE;
                     }
                     System.out.println(hour + ":" + minute + ":" + second);
                 }
